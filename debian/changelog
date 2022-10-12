@@ -1,0 +1,20 @@
+lxhotkey (0.1.1-1) unstable; urgency=medium
+
+  * Merging upstream version 0.1.1.
+  * Reposition Vcs-* to the Debian Salsa.
+  * Bump Standards-Version to 4.5.1.
+  * Dropping customized compression options from debian/source/options file.
+  * Updating debian/copyright file.
+  * Updating lintian tag to debian-watch-does-not-check-gpg-signature.
+  * Adding 'Rules-Requires-Root: no' header.
+  * Bump debhelper to version 12.
+  * Versioning plugin dependencies on lxhotkey-core.
+  * Adding Multi-Arch headers.
+
+ -- Andriy Grytsenko <andrej@rep.kiev.ua>  Sun, 31 Jan 2021 21:54:46 +0200
+
+lxhotkey (0.1.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #840066).
+
+ -- Andriy Grytsenko <andrej@rep.kiev.ua>  Tue, 22 Nov 2016 03:24:33 +0200
